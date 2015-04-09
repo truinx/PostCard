@@ -14,19 +14,19 @@ class ViewController: UIViewController
     @IBOutlet weak var enterNameTextField: UITextField!
     @IBOutlet weak var enterMessageTextField: UITextField!
     @IBOutlet weak var mailButton: UIButton!
-    
+
 
     override func viewDidLoad()
  {
     super.viewDidLoad()
-    
-        
-    
-    
-        
+
+
+
+
+
         // Do any additional setup after loading the view, typically from a nib.
  }
- 
+
     override func didReceiveMemoryWarning()
  {
     super.didReceiveMemoryWarning()
@@ -38,12 +38,12 @@ class ViewController: UIViewController
     messageLabel.hidden = false //!messageLabel.hidden
     messageLabel.text = enterMessageTextField.text
     messageLabel.textColor = UIColor.redColor()
-    
+
     enterMessageTextField.text = ""
     enterMessageTextField.resignFirstResponder()
-    
-    mailButton.setTitle("Mail Sent to Kumar test", forState: UIControlState.Normal)
-    
+
+    mailButton.setTitle("Mail Sent Ronnel", forState: UIControlState.Normal)
+
+
  }
 }
-
